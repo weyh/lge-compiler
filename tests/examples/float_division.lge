@@ -1,0 +1,1 @@
+let main: int = () -> str_print(float_to_str(22.4 / 2.8))

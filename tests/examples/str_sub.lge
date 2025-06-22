@@ -1,0 +1,2 @@
+let test: str = () -> "Hello world!"
+let main: int = () -> str_print(str_sub(test(), 1, 5))

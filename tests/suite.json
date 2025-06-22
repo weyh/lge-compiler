@@ -1,0 +1,113 @@
+{
+    "version": 2,
+    "tests": [
+        {
+            "name": "Hello world test",
+            "file_name": "hello_world",
+            "exit_code": 0,
+            "has_stdin": false
+        },
+        {
+            "name": "New line test",
+            "file_name": "new_line",
+            "exit_code": 0,
+            "has_stdin": false
+        },
+        {
+            "name": "Exit 100 test",
+            "file_name": "exit_-100",
+            "exit_code": 156,
+            "has_stdin": false
+        },
+        {
+            "name": "Float addition test",
+            "file_name": "float_addition",
+            "exit_code": 0,
+            "has_stdin": false
+        },
+        {
+            "name": "Float subtraction test",
+            "file_name": "float_subtraction",
+            "exit_code": 0,
+            "has_stdin": false
+        },
+        {
+            "name": "Float division test",
+            "file_name": "float_division",
+            "exit_code": 0,
+            "has_stdin": false
+        },
+        {
+            "name": "Float multiplication test",
+            "file_name": "float_multiplication",
+            "exit_code": 0,
+            "has_stdin": false
+        },
+        {
+            "name": "Int addition test",
+            "file_name": "int_addition",
+            "exit_code": 154,
+            "has_stdin": false
+        },
+        {
+            "name": "Int subtraction test",
+            "file_name": "int_subtraction",
+            "exit_code": 8,
+            "has_stdin": false
+        },
+        {
+            "name": "Int division test",
+            "file_name": "int_division",
+            "exit_code": 21,
+            "has_stdin": false
+        },
+        {
+            "name": "Int multiplication test",
+            "file_name": "int_multiplication",
+            "exit_code": 42,
+            "has_stdin": false
+        },
+        {
+            "name": "Complex test",
+            "file_name": "complex",
+            "exit_code": 35,
+            "has_stdin": false
+        },
+        {
+            "name": "Arithmetic test",
+            "file_name": "arithmetic",
+            "exit_code": 17,
+            "has_stdin": false
+        },
+        {
+            "name": "Str len test",
+            "file_name": "str_len",
+            "exit_code": 0,
+            "has_stdin": false
+        },
+        {
+            "name": "Str sub test",
+            "file_name": "str_sub",
+            "exit_code": 0,
+            "has_stdin": false
+        },
+        {
+            "name": "Str read input",
+            "file_name": "input",
+            "exit_code": 0,
+            "has_stdin": true
+        },
+        {
+            "name": "Factorial test",
+            "file_name": "fact",
+            "exit_code": 0,
+            "has_stdin": false
+        },
+        {
+            "name": "Str cmp test",
+            "file_name": "str_cmp",
+            "exit_code": 0,
+            "has_stdin": false
+        }
+    ]
+}

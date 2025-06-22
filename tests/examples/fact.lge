@@ -1,0 +1,6 @@
+let fact: int = (n: int) ->
+    if n <= 1
+        then 1
+        else n * fact(n - 1)
+
+let main: int = () -> str_print(int_to_str(fact(10)))

@@ -1,0 +1,1 @@
+let main: int = () -> str_print(str_read(100))

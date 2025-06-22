@@ -1,0 +1,3 @@
+# Hello world program
+let hello: str = () -> "Hello world!"
+let main: int = () -> str_print(hello())

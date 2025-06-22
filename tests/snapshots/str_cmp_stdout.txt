@@ -1,0 +1,5 @@
+asd == asd: true
+asd == dsa: false
+asd == asd == asd: true
+asd == dsa == asd: false
+asd == asd == das: false

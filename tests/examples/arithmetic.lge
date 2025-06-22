@@ -1,0 +1,5 @@
+# Simple arithmetic example
+let add: int = (a: int, b: int) -> a + b
+let multiply: int = (a: int, b: int) -> a * b
+
+let main: int = () -> add(multiply(3, 4), 5)

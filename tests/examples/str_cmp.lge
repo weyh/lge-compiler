@@ -1,0 +1,23 @@
+let boolint_to_str: str = (n: int) ->
+    if n == 0
+        then "false"
+        else "true"
+
+let str_cmp3: int = (a: str, b: str, c: str) ->
+    if str_cmp(a, b) == 1
+        then if str_cmp(a, c) == 1
+                then 1
+                else 0
+        else 0
+
+let main: int = () ->
+    str_print("asd == asd: ") + str_print(boolint_to_str(str_cmp("asd", "asd"))) +
+    str_print("\n") +
+    str_print("asd == dsa: ") + str_print(boolint_to_str(str_cmp("asd", "dsa"))) +
+    str_print("\n") +
+    str_print("asd == asd == asd: ") + str_print(boolint_to_str(str_cmp3("asd", "asd", "asd"))) +
+    str_print("\n") +
+    str_print("asd == dsa == asd: ") + str_print(boolint_to_str(str_cmp3("asd", "dsa", "asd"))) +
+    str_print("\n") +
+    str_print("asd == asd == das: ") + str_print(boolint_to_str(str_cmp3("asd", "asd", "dsa")))
+

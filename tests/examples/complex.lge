@@ -1,0 +1,7 @@
+# More complex example with multiple functions
+let test: str = () -> "Test"
+let add: int = (a: int, b: int) -> a + b
+let apply: int = (g: func, n: int) -> g(n)
+let square: int = (n: int) -> n * n
+
+let main: int = () -> str_print(test()) + add(apply(square, 5), 10)
